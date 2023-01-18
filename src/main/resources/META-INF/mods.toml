@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="Mit License"
+[[mods]]
+modId="alloyed_deco"
+version="0.0.1-1.19.2"
+displayName="Create: Alloyed Deco"
+diplayURL="https://github.com/Marvolo-Riddle/Alloyed-Deco"
+logoFile="examplemod.png"
+credits="The Create Deco and Create Alloyed teams"
+authors="Crows_Parliament"
+
+description='''
+Bridging the gaps between alloyed and deco, one line at a time
+'''
+
+[[dependencies.alloyed_deco]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alloyed_deco]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+#[[dependencies.alloyed_deco]]
+#    modId="create"
+#    mandatory=true
+#    versionRange="[0.5.0.e,)"
+#    ordering="NONE"
+#    side="BOTH"
+#[[dependencies.alloyed]]
+#    modId="flywheel"
+#    mandatory=true
+#    versionRange="[0.6.6,)"
+#    ordering="AFTER"
+#    side="CLIENT"
+#[[dependencies.alloyed_deco]]
+#    modId="createdeco"
+#    mandatory=true
+#    versionRange="[1.2.12,)"
+#    ordering="NONE"
+#    side="CLIENT"
+#[[dependencies.alloyed_deco]]
+#    modId="alloyed"
+#    mandatory=true
+#    versionRange="[v1.5,)"
+#    ordering="NONE"
+#    side="CLIENT"
