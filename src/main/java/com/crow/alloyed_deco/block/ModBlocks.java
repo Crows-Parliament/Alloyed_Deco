@@ -30,7 +30,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)
+                    .sound(SoundType.NETHERITE_BLOCK)
             ),
             ModCreativeModeTab.ALLOYEDDECOTAB);
 
@@ -39,7 +39,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)
+                    .sound(SoundType.NETHERITE_BLOCK)
             ),
             ModCreativeModeTab.ALLOYEDDECOTAB);
 
@@ -48,7 +48,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)
+                    .sound(SoundType.NETHERITE_BLOCK)
             ),
             ModCreativeModeTab.ALLOYEDDECOTAB);
 
@@ -57,7 +57,7 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.COPPER)
+                    .sound(SoundType.NETHERITE_BLOCK)
             ),
             ModCreativeModeTab.ALLOYEDDECOTAB);
 
