@@ -1,5 +1,6 @@
 package com.crow.alloyed_deco;
 
+import com.crow.alloyed_deco.block.ModBlocks;
 import com.crow.alloyed_deco.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -25,6 +26,7 @@ public class AlloyedDeco
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         

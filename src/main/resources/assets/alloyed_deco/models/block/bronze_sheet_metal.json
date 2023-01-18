@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alloyed_deco:block/bronze_sheet_metal"
+  }
+}
