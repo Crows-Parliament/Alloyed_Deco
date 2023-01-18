@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "alloyed:bronze_block"
+  },
+  "result": "alloyed_deco:bronze_sheet_metal"
+}
