@@ -26,27 +26,27 @@ Bridging the gaps between alloyed and deco, one line at a time
     versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
-#[[dependencies.alloyed_deco]]
-#    modId="create"
-#    mandatory=true
-#    versionRange="[0.5.0.e,)"
-#    ordering="NONE"
-#    side="BOTH"
-#[[dependencies.alloyed]]
-#    modId="flywheel"
-#    mandatory=true
-#    versionRange="[0.6.6,)"
-#    ordering="AFTER"
-#    side="CLIENT"
-#[[dependencies.alloyed_deco]]
-#    modId="createdeco"
-#    mandatory=true
-#    versionRange="[1.2.12,)"
-#    ordering="NONE"
-#    side="CLIENT"
-#[[dependencies.alloyed_deco]]
-#    modId="alloyed"
-#    mandatory=true
-#    versionRange="[v1.5,)"
-#    ordering="NONE"
-#    side="CLIENT"
+[[dependencies.alloyed_deco]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.0.g,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alloyed_deco]]
+    modId="createdeco"
+    mandatory=true
+    versionRange="[1.2.12,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alloyed_deco]]
+    modId="alloyed"
+    mandatory=true
+    versionRange="[v1.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alloyed_deco]]
+    modId="create_crystal_clear"
+    mandatory=false
+    versionRange="[0.1.2e,)"
+    ordering="NONE"
+    side="BOTH"

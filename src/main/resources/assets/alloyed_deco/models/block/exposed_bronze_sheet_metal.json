@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "alloyed_deco:block/exposed_bronze_sheet_metal"
-  }
-}
