@@ -43,7 +43,6 @@ import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 public class BronzeSheetSet {
     protected static final WeatherState[] WEATHER_STATES = WeatherState.values();
     protected static final int WEATHER_STATE_COUNT = WEATHER_STATES.length;
-
     protected static final Map<WeatherState, Supplier<Block>> BASE_BLOCKS = new EnumMap<>(WeatherState.class);
     static {
         BASE_BLOCKS.put(WeatherState.UNAFFECTED, Blocks.COPPER_BLOCK.delegate);
