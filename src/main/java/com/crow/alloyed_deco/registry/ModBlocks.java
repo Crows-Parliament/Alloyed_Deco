@@ -3,10 +3,7 @@ package com.crow.alloyed_deco.registry;
 import com.crow.alloyed_deco.AlloyedDeco;
 import com.crow.alloyed_deco.AlloyedDecoTab;
 import com.crow.alloyed_deco.blocks.BronzeSheetSet;
-import com.simibubi.create.AllTags;
-import com.simibubi.create.foundation.block.CopperBlockSet;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import com.tterrag.registrate.util.DataIngredient;
 
 public class ModBlocks {
 
